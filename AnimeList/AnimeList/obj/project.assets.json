@@ -2270,9 +2270,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Visual Studio Projects\\AnimeList\\AnimeList\\AnimeList.csproj",
-      "projectName": "AnimeList",
-      "projectPath": "E:\\Visual Studio Projects\\AnimeList\\AnimeList\\AnimeList.csproj",
+      "projectUniqueName": "E:\\Visual Studio Projects\\AnimeList\\AnimeList\\AnimePlace.csproj",
+      "projectName": "AnimePlace",
+      "projectPath": "E:\\Visual Studio Projects\\AnimeList\\AnimeList\\AnimePlace.csproj",
       "packagesPath": "C:\\Users\\Pepi\\.nuget\\packages\\",
       "outputPath": "E:\\Visual Studio Projects\\AnimeList\\AnimeList\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p0c8voi5RggIsiKg4sACtSOmIUFqvC4BOkV+a+qIyOAzqCaOMHKUKN2T23eEAXnTXfEGNwkWeQtcWYx2jMJDNw==",
+  "dgSpecHash": "+p+RTtFiuFExtzSOClFE+764KpVv8mnzU+wQ9BAIeHOAPsbNFP9OSR/M6GldAO/TdPXiyg1Z8eKh6SXyLUkQNw==",
   "success": true,
-  "projectFilePath": "E:\\Visual Studio Projects\\AnimeList\\AnimeList\\AnimeList.csproj",
+  "projectFilePath": "E:\\Visual Studio Projects\\AnimeList\\AnimeList\\AnimePlace.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pepi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Pepi\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.1\\microsoft.aspnetcore.cryptography.internal.6.0.1.nupkg.sha512",
