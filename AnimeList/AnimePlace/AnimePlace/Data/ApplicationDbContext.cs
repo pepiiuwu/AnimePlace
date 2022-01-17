@@ -9,5 +9,10 @@ namespace AnimePlace.Data
             : base(options)
         {
         }
+
+        public DbSet<Anime> Animes { get; set; }
+
+        public DbSet<Character> Characters { get; set; }
+
     }
 }

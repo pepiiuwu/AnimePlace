@@ -1,0 +1,12 @@
+﻿@using AnimePlace.Data
+@model ICollection<AnimePlace.Data.Anime>
+@{
+}
+
+<h1>This is the Anime List (so far)</h1>
+<ol>
+@foreach (var obj in Model){
+    <li>@obj.Name</li>
+    <li>@obj.Sypnosis</li>
+}
+</ol>
