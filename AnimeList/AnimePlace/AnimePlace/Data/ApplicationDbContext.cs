@@ -14,5 +14,7 @@ namespace AnimePlace.Data
 
         public DbSet<Character> Characters { get; set; }
 
+        public DbSet<Genre> Genres { get; set; }
+
     }
 }

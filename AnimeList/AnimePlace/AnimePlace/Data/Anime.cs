@@ -2,11 +2,12 @@
 {
     public class Anime
     {
-        private readonly ICollection<Anime> _animes;
+        
         public Anime()
         {
             this.Characters = new HashSet<Character>();
-            _animes = new HashSet<Anime>();
+            this.Genres = new HashSet<Genre>();
+            this.Studios = new HashSet<Studio>();
         }
 
         public int Id { get; set; }
@@ -15,10 +16,18 @@
 
         public string Sypnosis { get; set; }
 
+        public double Score { get; set; }
+
+        public int Favorites { get; set; }
+
         public int? Episodes { get; set; }
 
         public string Type { get; set; }
 
+        public ICollection<Studio> Studios { get; set; }
+
         public ICollection<Character> Characters { get; set; }
+
+        public ICollection<Genre> Genres { get; set; }
     }
 }

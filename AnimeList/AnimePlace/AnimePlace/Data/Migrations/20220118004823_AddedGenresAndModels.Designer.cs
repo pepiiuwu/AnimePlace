@@ -4,6 +4,7 @@ using AnimePlace.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AnimePlace.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220118004823_AddedGenresAndModels")]
+    partial class AddedGenresAndModels
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -122,38 +124,6 @@ namespace AnimePlace.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Genres");
-                });
-
-            modelBuilder.Entity("AnimePlace.Data.Studio", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Studio");
-                });
-
-            modelBuilder.Entity("AnimeStudio", b =>
-                {
-                    b.Property<int>("AnimesId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StudiosId")
-                        .HasColumnType("int");
-
-                    b.HasKey("AnimesId", "StudiosId");
-
-                    b.HasIndex("StudiosId");
-
-                    b.ToTable("AnimeStudio");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -384,21 +354,6 @@ namespace AnimePlace.Data.Migrations
                     b.HasOne("AnimePlace.Data.Genre", null)
                         .WithMany()
                         .HasForeignKey("GenresId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("AnimeStudio", b =>
-                {
-                    b.HasOne("AnimePlace.Data.Anime", null)
-                        .WithMany()
-                        .HasForeignKey("AnimesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("AnimePlace.Data.Studio", null)
-                        .WithMany()
-                        .HasForeignKey("StudiosId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
