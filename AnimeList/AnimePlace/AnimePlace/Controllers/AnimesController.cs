@@ -1,4 +1,5 @@
 ﻿using AnimePlace.Data;
+using AnimePlace.Models.InputModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
@@ -28,11 +29,24 @@ namespace AnimePlace.Controllers
         // GET: AnimesController/Create
         public ActionResult Create()
         {
-            return View();
+            var viewModel = new CreateAnimeInputModel();
+            //viewModel.TypeItems
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        public IActionResult Create(CreateAnimeInputModel input)
+        {
+            if (!this.ModelState.IsValid)
+            {
+                //input.TypeItems = 
+                return this.View();
+            }
+            return this.Redirect("/");
         }
 
         // POST: AnimesController/Create
-        [HttpPost]
+        /*[HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
@@ -44,7 +58,7 @@ namespace AnimePlace.Controllers
             {
                 return View();
             }
-        }
+        } */
 
         // GET: AnimesController/Edit/5
         public ActionResult Edit(int id)

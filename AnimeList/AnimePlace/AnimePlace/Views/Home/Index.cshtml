@@ -1,4 +1,7 @@
-﻿@{
+﻿@using AnimePlace.Models
+@model AnimePlace.Models.IndexViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -6,4 +9,11 @@
     <h1 class="display-4">Welcome</h1>
     <p>Work in progess...</p>
     <img src=~/my-brain-hurts.jpg />
+    <ol>
+        <li>Animes Count: @Model.AnimesCount</li>
+        <li>Characters Count: @Model.CharactersCount</li>
+        <li>Studios Count: @Model.StudiosCount</li>
+        <li>Genres Count: @Model.GenresCount</li>
+    </ol>
+
 </div>

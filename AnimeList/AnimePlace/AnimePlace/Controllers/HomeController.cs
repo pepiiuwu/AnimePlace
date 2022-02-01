@@ -1,4 +1,6 @@
-﻿using AnimePlace.Models;
+﻿using AnimePlace.Data;
+using AnimePlace.Models;
+using AnimePlace.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -7,15 +9,18 @@ namespace AnimePlace.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IGetCountsService getCountsService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IGetCountsService getCountsService)
         {
-            _logger = logger;
+            this._logger = logger;
+            this.getCountsService = getCountsService;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var viewModel = this.getCountsService.GetCounts();
+            return View(viewModel);
         }
 
         public IActionResult Privacy()

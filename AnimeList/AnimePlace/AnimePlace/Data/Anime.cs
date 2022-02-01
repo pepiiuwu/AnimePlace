@@ -12,9 +12,9 @@
 
         public int Id { get; set; }
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
-        public string Sypnosis { get; set; }
+        public string? Sypnosis { get; set; }
 
         public double Score { get; set; }
 

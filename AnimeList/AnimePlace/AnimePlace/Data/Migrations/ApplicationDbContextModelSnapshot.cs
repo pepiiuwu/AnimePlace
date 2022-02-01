@@ -138,7 +138,7 @@ namespace AnimePlace.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Studio");
+                    b.ToTable("Studios");
                 });
 
             modelBuilder.Entity("AnimeStudio", b =>
