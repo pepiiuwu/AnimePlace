@@ -1,5 +1,6 @@
 ﻿using AnimePlace.Data;
 using AnimePlace.Models.InputModels;
+using AnimePlace.Services.Contracts;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
@@ -9,10 +10,12 @@ namespace AnimePlace.Controllers
     public class AnimesController : Controller
     {
         public readonly ApplicationDbContext _db;
+        private readonly IAnimesService animesService;
 
-        public AnimesController(ApplicationDbContext db)
+        public AnimesController(ApplicationDbContext db, IAnimesService animesService)
         {
             _db = db;
+            this.animesService = animesService;
         }
         // GET: AnimesController
         public ActionResult Index()
@@ -31,34 +34,40 @@ namespace AnimePlace.Controllers
         {
             var viewModel = new CreateAnimeInputModel();
             //viewModel.TypeItems
+            
             return View(viewModel);
         }
 
         [HttpPost]
-        public IActionResult Create(CreateAnimeInputModel input)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(CreateAnimeInputModel input)
         {
             if (!this.ModelState.IsValid)
             {
-                //input.TypeItems = 
-                return this.View();
+                return this.View(input);
             }
-            return this.Redirect("/");
+            await this.animesService.CreateAsync(input);
+            //return this.Json(input);
+            return this.RedirectToAction("Index");
         }
+        
 
-        // POST: AnimesController/Create
-        /*[HttpPost]
+        //POST: AnimesController/Create
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        } */
+        //public ActionResult Create(IFormCollection collection)
+        //{
+            
+            
+        //    {
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+            
+        //} 
 
         // GET: AnimesController/Edit/5
         public ActionResult Edit(int id)

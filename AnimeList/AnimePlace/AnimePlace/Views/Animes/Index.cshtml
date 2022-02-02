@@ -3,10 +3,36 @@
 @{
 }
 
-<h1>This is the Anime List (so far)</h1>
-<ol>
-@foreach (var obj in Model){
-    <li>@obj.Name</li>
-    <li>@obj.Sypnosis</li>
-}
-</ol>
+<h1>This is the Anime List (so far)
+    <a asp-controller="Animes" asp-action="Create" class="btn btn-primary" style = "width:150px">
+            Add Anime
+        </a>
+</h1>
+
+
+
+<table class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                Anime name
+            </th>
+            <th>
+                Sypnosis
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach(var obj in Model)
+            {
+                <tr>
+                    <td width="50%">
+                        @obj.Name
+                    </td>
+                    <td width="50%">
+                        @obj.Sypnosis
+                    </td>
+                </tr>
+            }
+        </tbody>
+</table>

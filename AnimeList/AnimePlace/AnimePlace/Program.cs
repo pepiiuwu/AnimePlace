@@ -1,5 +1,6 @@
 using AnimePlace.Data;
 using AnimePlace.Services;
+using AnimePlace.Services.Contracts;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IGetCountsService, GetCountsService>();
+builder.Services.AddTransient<IAnimesService, AnimesService>();
 
 
 
