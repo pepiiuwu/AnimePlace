@@ -9832,11 +9832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Visual Studio Projects\\AnimeList\\AnimePlace\\AnimePlace\\AnimePlace.csproj",
+      "projectUniqueName": "E:\\Visual Studio Projects\\AnimePlace\\AnimePlace.csproj",
       "projectName": "AnimePlace",
-      "projectPath": "E:\\Visual Studio Projects\\AnimeList\\AnimePlace\\AnimePlace\\AnimePlace.csproj",
+      "projectPath": "E:\\Visual Studio Projects\\AnimePlace\\AnimePlace.csproj",
       "packagesPath": "C:\\Users\\Pepi\\.nuget\\packages\\",
-      "outputPath": "E:\\Visual Studio Projects\\AnimeList\\AnimePlace\\AnimePlace\\obj\\",
+      "outputPath": "E:\\Visual Studio Projects\\AnimePlace\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pepi\\AppData\\Roaming\\NuGet\\NuGet.Config",

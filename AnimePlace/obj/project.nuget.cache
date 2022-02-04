@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cERHrahWnrFUv8gcrd5zsvjrO5zSs9YjhLlSp2sCfZw+8sohAP4e7AFA0ca/xAdzpMD8F640Gw82KsD7qpOTlg==",
+  "dgSpecHash": "VtI3gw9ICTyKTmuz1DUklkn0QC3ciRezBw81IUhxwA4JGsZqD9cHQmPjLJOX6w1bQoX3J8XR1pGjh/Qf4OApag==",
   "success": true,
-  "projectFilePath": "E:\\Visual Studio Projects\\AnimeList\\AnimePlace\\AnimePlace\\AnimePlace.csproj",
+  "projectFilePath": "E:\\Visual Studio Projects\\AnimePlace\\AnimePlace.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pepi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Pepi\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

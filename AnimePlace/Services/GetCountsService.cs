@@ -13,7 +13,7 @@ namespace AnimePlace.Services
             Context = dbContext;
         }
 
-        // Some bug...
+        
         
         public IndexViewModel GetCounts()
         {
