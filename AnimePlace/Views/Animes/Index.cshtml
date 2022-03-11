@@ -1,9 +1,12 @@
 ﻿@using AnimePlace.Data
 @model ICollection<AnimePlace.Data.Anime>
 @{
+    ViewData["Title"] = "Anime List";
+    
 }
+ <link rel="stylesheet" href="~/css/customCSS.css">
 
-<h1>This is the Anime List (so far)
+<h1>This is the Anime List
     <a asp-controller="Animes" asp-action="Create" class="btn btn-primary" style = "width:150px">
             Add Anime
         </a>
@@ -18,20 +21,34 @@
                 Anime name
             </th>
             <th>
+                Type
+            </th>
+            <th>
+                Episodes
+            </th>
+            <th>
                 Sypnosis
             </th>
         </tr>
     </thead>
     <tbody>
-            @foreach(var obj in Model)
+            @foreach(var Anime in Model)
             {
                 <tr>
                     <td width="50%">
-                        @obj.Name
+                        @Anime.Name
                     </td>
                     <td width="50%">
-                        @obj.Sypnosis
+                        @Anime.Type
                     </td>
+                    <td width="50%">
+                        @Anime.Episodes
+                    </td>
+                       
+                    <td class="panel-heading">
+                        @Anime.Sypnosis
+                    </td>
+                    
                 </tr>
             }
         </tbody>

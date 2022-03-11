@@ -6,6 +6,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace AnimePlace.Models.InputModels
 {
 
+    public enum TypeEnum
+    {
+        TV = 1,
+        Movie = 2
+    }
+
+
     [Keyless]
     public class CreateAnimeInputModel
     {
@@ -23,7 +30,7 @@ namespace AnimePlace.Models.InputModels
         public int? Episodes { get; set; }
 
         [Required]
-        public string? Type { get; set; }
+        public TypeEnum? Type { get; set; }
 
         //To make it so you can add the characters on anime creation and/or add them eventually
         //public ICollection<AnimeCharacterInputModel> Characters { get; set; }

@@ -67,14 +67,12 @@ namespace AnimePlace.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("Score")
                         .HasColumnType("float");
 
                     b.Property<string>("Sypnosis")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Type")
@@ -116,7 +114,6 @@ namespace AnimePlace.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -139,6 +136,28 @@ namespace AnimePlace.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Studios");
+                });
+
+            modelBuilder.Entity("AnimePlace.Models.InputModels.CreateAnimeInputModel", b =>
+                {
+                    b.Property<int?>("Episodes")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Sypnosis")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int");
+
+                    b.ToTable("CreateAnimeInputModel");
                 });
 
             modelBuilder.Entity("AnimeStudio", b =>

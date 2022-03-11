@@ -1,5 +1,7 @@
 ﻿namespace AnimePlace.Data
 {
+ 
+
     public class Anime
     {
         

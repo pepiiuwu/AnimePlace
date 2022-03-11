@@ -5,15 +5,23 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Work in progess...</p>
-    <img src=~/my-brain-hurts.jpg />
-    <ol>
-        <li>Animes Count: @Model.AnimesCount</li>
-        <li>Characters Count: @Model.CharactersCount</li>
-        <li>Studios Count: @Model.StudiosCount</li>
-        <li>Genres Count: @Model.GenresCount</li>
-    </ol>
+<table class="table table-dark">
+    <tbody>
+    <tr>
+      <td align="center">Anime Count</td>
+      <td align="center">Characters Count</td>
+      <td align="center">Studios Count</td>
+      <td align="center">Genres Count</td>
+    </tr>
+    <tr>
+      <td align="center">@Model.AnimesCount</td>
+      <td align="center">@Model.CharactersCount</td>
+      <td align="center">@Model.StudiosCount</td>
+      <td align="center">@Model.GenresCount</td>
+    </tr>
+    
+  </tbody>
 
-</div>
+
+
+</table>

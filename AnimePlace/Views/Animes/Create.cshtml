@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "Add new Anime";
+    
 }
 
 <h1>Add new Anime to the Database</h1>
@@ -30,9 +31,13 @@
             <input asp-for="Sypnosis" class="form-control" />
             <span asp-validation-for="Sypnosis" class="text-danger"></span>
         </div>
-        <div class="mb-3">
-            <label asp-for="Type"></label>
-            <input asp-for="Type" class="form-control" />
+        <div class="form-group">
+            <label asp-for="Type" class="control-label"></label>
+            <select asp-for="Type" 
+                    class="form-control" 
+                    asp-items="Html.GetEnumSelectList<TypeEnum>()">
+                <option>Select type...</option>
+            </select>
             <span asp-validation-for="Type" class="text-danger"></span>
         </div>
         <button type="submit" class="btn btn-primary" style="width:150px">Create</button>

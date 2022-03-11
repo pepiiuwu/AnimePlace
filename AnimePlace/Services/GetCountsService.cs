@@ -17,8 +17,7 @@ namespace AnimePlace.Services
         
         public IndexViewModel GetCounts()
         {
-            
-            
+                     
             var data = new IndexViewModel
             {
                 AnimesCount = Context.Animes.Count(),
@@ -26,6 +25,7 @@ namespace AnimePlace.Services
                 StudiosCount = Context.Studios.Count(),
                 GenresCount = Context.Genres.Count(),
             };
+
             return data;
             
         }

@@ -14,11 +14,13 @@ namespace AnimePlace.Services
         }
         public async Task CreateAsync(CreateAnimeInputModel input)
         {
+
             var anime = new Anime()
             {
+
                 Name = input.Name,
                 Sypnosis = input.Sypnosis,
-                Type = input.Type,
+                Type = input.Type.ToString(),
                 Episodes = input.Episodes
             };
 
