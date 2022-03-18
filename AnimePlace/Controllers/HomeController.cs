@@ -1,5 +1,6 @@
 ﻿using AnimePlace.Data;
 using AnimePlace.Models;
+using AnimePlace.Constants;
 using AnimePlace.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -19,6 +20,8 @@ namespace AnimePlace.Controllers
 
         public IActionResult Index()
         {
+            ViewData[MessageConstants.ErrorMessage] = "хей, нещо се счупи!";
+
             var viewModel = this.getCountsService.GetCounts();
             return View(viewModel);
         }
