@@ -28,18 +28,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link text-dark" asp-area="" asp-controller="Animes" asp-action="Index">Anime</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" asp-area="" asp-controller="Animes" asp-action="Create">Add new Anime</a>
                 </li>
+                
             </ul>
-
-            <!-- Right navbar links -->
             <ul class="navbar-nav ml-auto">
+            <partial name="_LoginPartial" />
+            </ul>
+            <!-- Right navbar links -->
+            @*<ul class="navbar-nav ml-auto">
                 <!-- Navbar Search -->
                 <li class="nav-item">
                     <a class="nav-link" data-widget="navbar-search" href="#" role="button">
@@ -102,7 +102,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         </a>
                         <div class="dropdown-divider"></div>
                         <a href="#" class="dropdown-item">
-                            <!-- Message Start -->
+
+                           @* <!-- Message Start -->
                             <div class="media">
                                 <img src="~/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
@@ -121,7 +122,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     </div>
                 </li>
                 <!-- Notifications Dropdown Menu -->
-                <li class="nav-item dropdown">
+               @* <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">
                         <i class="far fa-bell"></i>
                         <span class="badge badge-warning navbar-badge">15</span>
@@ -157,15 +158,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <i class="fas fa-th-large"></i>
                     </a>
                 </li>
-            </ul>
+            </ul>*@
         </nav>
         <!-- /.navbar -->
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="index3.html" class="brand-link">
+            <a href="/" class="brand-link">
                 <img src="~/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">AdminLTE 3</span>
+                <span class="brand-text font-weight-light">Anime Place</span>
             </a>
 
             <!-- Sidebar -->
@@ -248,13 +249,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
         
     <!-- /.content-wrapper -->
     <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
+    @*<aside class="control-sidebar control-sidebar-dark">
         <!-- Control sidebar content goes here -->
         <div class="p-3">
             <h5>Title</h5>
             <p>Sidebar content</p>
         </div>
-    </aside>
+    </aside>*@
     <!-- /.control-sidebar -->
     <!-- Main Footer -->
     <footer class="main-footer">
@@ -264,6 +265,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </div>
         <!-- Default to the left -->
         <strong><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click if GigaChad</a></strong>
+        <img src="~/gigachad.gif" alt="gif image" width="55px" height="55px"/>
+        
+
     </footer>
     </div>
     <!-- ./wrapper -->
@@ -276,6 +280,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="~/js/adminlte.min.js"></script>
     <script src="~/plugins/toastr/toastr.min.js"></script>
     <partial name="_UserMessages" />
+    
     
     @await RenderSectionAsync("Scripts", required: false)
 </body>

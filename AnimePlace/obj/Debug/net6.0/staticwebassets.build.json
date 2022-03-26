@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ibDaFXXvfHRpfgadZKP/CwBp0lhdy7CYBbrQkceQtB0=",
+  "Hash": "ehZ7nr3IgRuDb3hp36BfciIVxzo/+eFTjr0mUtWapDs=",
   "Source": "AnimePlace",
   "BasePath": "_content/AnimePlace",
   "Mode": "Default",
@@ -1783,6 +1783,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\Visual Studio Projects\\AnimePlace\\wwwroot\\gigachad.gif",
+      "SourceId": "AnimePlace",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Visual Studio Projects\\AnimePlace\\wwwroot\\",
+      "BasePath": "_content/AnimePlace",
+      "RelativePath": "gigachad.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\gigachad.gif"
     },
     {
       "Identity": "E:\\Visual Studio Projects\\AnimePlace\\wwwroot\\img\\AdminLTELogo.png",
