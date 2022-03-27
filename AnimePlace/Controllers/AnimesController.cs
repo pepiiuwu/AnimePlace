@@ -1,6 +1,7 @@
 ﻿using AnimePlace.Data;
 using AnimePlace.Models.InputModels;
 using AnimePlace.Services.Contracts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
@@ -28,7 +29,7 @@ namespace AnimePlace.Controllers
         {
             return View();
         }
-
+        [Authorize]
         // GET: AnimesController/Create
         public ActionResult Create()
         {

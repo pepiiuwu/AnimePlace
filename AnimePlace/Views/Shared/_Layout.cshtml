@@ -30,10 +30,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <li class="nav-item">
                     <a class="nav-link text-dark" asp-area="" asp-controller="Animes" asp-action="Index">Anime</a>
                 </li>
-                <li class="nav-item">
+                @if (this.User.IsInRole("Admin"))
+                {
+                    <li class="nav-item">
                     <a class="nav-link text-dark" asp-area="" asp-controller="Animes" asp-action="Create">Add new Anime</a>
                 </li>
-                
+                }
             </ul>
             <ul class="navbar-nav ml-auto">
             <partial name="_LoginPartial" />

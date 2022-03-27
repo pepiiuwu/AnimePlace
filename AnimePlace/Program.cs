@@ -24,7 +24,9 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
     options.Lockout.MaxFailedAccessAttempts = 5;
     options.Lockout.MaxFailedAccessAttempts = 1;
 })
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IGetCountsService, GetCountsService>();
 builder.Services.AddTransient<IAnimesService, AnimesService>();
