@@ -20,7 +20,7 @@ namespace AnimePlace.Controllers
 
         public IActionResult Index()
         {
-            ViewData[MessageConstants.ErrorMessage] = "хей, нещо се счупи!";
+            //ViewData[MessageConstants.ErrorMessage] = "хей, нещо се счупи!";
 
             var viewModel = this.getCountsService.GetCounts();
             return View(viewModel);

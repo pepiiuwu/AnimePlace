@@ -17,8 +17,8 @@ namespace AnimePlace.Models.InputModels
     public class CreateAnimeInputModel
     {
 
-        [MinLength(5)]
-        [MaxLength(50)]
+        [MinLength(1)]
+        [MaxLength(70)]
         [Required]
         public string? Name { get; set; }
         [MinLength(5)]
@@ -28,6 +28,8 @@ namespace AnimePlace.Models.InputModels
         [Range(1, 400)]
         [Required]
         public int? Episodes { get; set; }
+
+        public string ImageUrl { get; set; }
 
         [Required]
         public TypeEnum? Type { get; set; }

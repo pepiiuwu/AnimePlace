@@ -1,5 +1,6 @@
 ﻿using AnimePlace.Data;
 using AnimePlace.Models.InputModels;
+using AnimePlace.Models.ViewModels;
 using AnimePlace.Services.Contracts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -19,9 +20,25 @@ namespace AnimePlace.Controllers
             this.animesService = animesService;
         }
         // GET: AnimesController
-        public ActionResult Index()
+        public ActionResult Index(int id)
         {
-            return View(_db.Animes.ToList());
+            var viewModel = new AnimesListViewModel
+            {
+                PageNumber = id,
+                Animes = animesService.GetAll(id, 12),
+            };
+            return View(viewModel);
+        }
+
+        public ActionResult AllAnimes(int id)
+        {
+            var viewModel = new AnimesListViewModel
+            {
+                PageNumber = id,
+                Animes = animesService.GetAll(id, 12),
+            };
+            return View(viewModel);
+
         }
 
         // GET: AnimesController/Details/5
@@ -29,7 +46,8 @@ namespace AnimePlace.Controllers
         {
             return View();
         }
-        [Authorize]
+
+        //Add authorization, so only Admin roles can Add New/Create Animes
         // GET: AnimesController/Create
         public ActionResult Create()
         {

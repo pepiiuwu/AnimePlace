@@ -1,5 +1,6 @@
 ﻿using AnimePlace.Data;
 using AnimePlace.Models.InputModels;
+using AnimePlace.Models.ViewModels;
 using AnimePlace.Services.Contracts;
 
 namespace AnimePlace.Services
@@ -30,6 +31,21 @@ namespace AnimePlace.Services
             }
 
             await dbContext.SaveChangesAsync();
+        }
+
+        public IEnumerable<AnimeListViewModel> GetAll(int page, int itemsPerPage = 12)
+        {
+            //.Skip((page -1) * itemsPerPage).Take(itemsPerPage);
+            var result = this.dbContext.Animes.OrderByDescending(x => x.Favorites)
+                .Skip((page) * itemsPerPage).Take(itemsPerPage)
+                .Select(x => new AnimeListViewModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Synopsis = x.Sypnosis,
+                }).ToList();
+
+            return result;
         }
     }
 }

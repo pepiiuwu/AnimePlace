@@ -13,6 +13,8 @@
 
         public string Details { get; set; }
 
+        public string ImageUrl { get; set; }
+
         public ICollection<Anime> Animes { get; set; }
     }
 }

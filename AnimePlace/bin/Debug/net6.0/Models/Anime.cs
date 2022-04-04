@@ -18,6 +18,8 @@
 
         public string? Sypnosis { get; set; }
 
+        public string ImageUrl { get; set; }
+
         public double Score { get; set; }
 
         public int Favorites { get; set; }

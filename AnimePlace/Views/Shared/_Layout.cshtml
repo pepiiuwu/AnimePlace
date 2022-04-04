@@ -30,12 +30,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <li class="nav-item">
                     <a class="nav-link text-dark" asp-area="" asp-controller="Animes" asp-action="Index">Anime</a>
                 </li>
-                @if (this.User.IsInRole("Admin"))
-                {
+                @*@if (this.User.IsInRole("Admin"))*@
+                
                     <li class="nav-item">
                     <a class="nav-link text-dark" asp-area="" asp-controller="Animes" asp-action="Create">Add new Anime</a>
                 </li>
-                }
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Animes" asp-action="AllAnimes">All Anime</a>
+                </li>
+                
             </ul>
             <ul class="navbar-nav ml-auto">
             <partial name="_LoginPartial" />
@@ -164,7 +167,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </nav>
         <!-- /.navbar -->
         <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="/" class="brand-link">
                 <img src="~/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
