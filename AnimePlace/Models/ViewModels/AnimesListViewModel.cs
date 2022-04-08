@@ -1,9 +1,9 @@
 ﻿namespace AnimePlace.Models.ViewModels
 {
-    public class AnimesListViewModel
+    public class AnimesListViewModel : PagingViewModel
     {
         public IEnumerable<AnimeListViewModel> Animes { get; set; }
 
-        public int PageNumber { get; set; }
+        
     }
 }

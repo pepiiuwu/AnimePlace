@@ -36,16 +36,22 @@ namespace AnimePlace.Services
         public IEnumerable<AnimeListViewModel> GetAll(int page, int itemsPerPage = 12)
         {
             //.Skip((page -1) * itemsPerPage).Take(itemsPerPage);
-            var result = this.dbContext.Animes.OrderByDescending(x => x.Favorites)
-                .Skip((page) * itemsPerPage).Take(itemsPerPage)
+            var result = dbContext.Animes.OrderByDescending(x => x.Favorites)
+                .Skip((page - 1) * itemsPerPage).Take(itemsPerPage)
                 .Select(x => new AnimeListViewModel
                 {
                     Id = x.Id,
                     Name = x.Name,
                     Synopsis = x.Sypnosis,
+                    ImageUrl = x.ImageUrl,
                 }).ToList();
 
             return result;
+        }
+
+        public int GetCount()
+        {
+            return dbContext.Animes.Count();
         }
     }
 }

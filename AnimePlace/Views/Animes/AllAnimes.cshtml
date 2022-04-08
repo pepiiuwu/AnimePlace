@@ -7,41 +7,28 @@
  <link rel="stylesheet" href="~/css/customCSS.css">
 
 
-<h1>This is the Anime List</h1>
+<h1 class="p-2 text-center">This is the Anime List</h1>
 <hr />
 
-<div class="row">
+<div class="row px-4">
 @foreach(var anime in this.Model.Animes)
 {
     
-    <div class="d-flex col-md-2">
-  <div class="flex-shrink-0">
-    <img src="@anime.ImageUrl" alt="...">
+    <div class="p-1 d-flex col-md-3">
+  <div class="p-1 flex-shrink-0">
+  <img src="~/img/@(anime.ImageUrl).jpg" width="120" height="160" alt="..." class="img-thumbnail">
   </div>
-  <div class="flex-grow-1 ms-3">
-      <h5>@anime.Name</h5>
-    <div class="overflow-auto">@anime.Synopsis</div>
+  <div class="p-1 flex-shrink-1 ms-3">
+      
+      <h5 class="p-1 text-left">@anime.Name</h5>
+     
+    <div class="p-1 text-left overflow-auto" style="height: 215px; width: 265px;">@anime.Synopsis</div>
   </div>
-</div>
+  </div>
+
 
 }
 </div>
 
 <hr />
-<nav aria-label="Page navigation example">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-      </a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-      </a>
-    </li>
-  </ul>
-</nav>
+<partial name="_PagingPartial" model="@Model"></partial>

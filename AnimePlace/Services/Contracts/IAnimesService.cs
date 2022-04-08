@@ -7,6 +7,8 @@ namespace AnimePlace.Services.Contracts
     {
         public Task CreateAsync(CreateAnimeInputModel input);
 
-        public IEnumerable<AnimeListViewModel> GetAll(int page, int itemsPerPage = 10);
+        public IEnumerable<AnimeListViewModel> GetAll(int page, int itemsPerPage);
+
+        int GetCount();
     }
 }

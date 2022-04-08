@@ -30,12 +30,16 @@ namespace AnimePlace.Controllers
             return View(viewModel);
         }
 
-        public ActionResult AllAnimes(int id)
+        public ActionResult AllAnimes(int id = 1)
         {
+            const int AnimesPerPage = 12;
+
             var viewModel = new AnimesListViewModel
             {
+                AnimesPerPage = AnimesPerPage,
                 PageNumber = id,
-                Animes = animesService.GetAll(id, 12),
+                AnimesCount = animesService.GetCount(),
+                Animes = animesService.GetAll(id, AnimesPerPage),
             };
             return View(viewModel);
 
