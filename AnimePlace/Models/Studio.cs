@@ -1,17 +1,16 @@
-﻿namespace AnimePlace.Data
+﻿using AnimePlace.Data;
+
+public class Studio
 {
-    public class Studio
+    public Studio()
     {
-
-        public Studio()
-        {
-            this.Animes = new HashSet<Anime>();
-        }
-
-        public int Id { get; set; }
-
-        public string Name { get; set; }
-
-        public ICollection<Anime> Animes { get; set; }
+        this.Animes = new HashSet<Anime>();
     }
+
+    public int StudioId { get; set; }
+
+    public string Name { get; set; }
+
+    public ICollection<Anime> Animes { get; set; }
 }
+

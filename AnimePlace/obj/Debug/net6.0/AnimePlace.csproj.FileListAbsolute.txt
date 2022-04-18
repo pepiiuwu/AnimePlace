@@ -525,7 +525,6 @@ E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.GeneratedMSBuil
 E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.AssemblyInfoInputs.cache
 E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.AssemblyInfo.cs
 E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.csproj.CoreCompileInputs.cache
-E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.MvcApplicationPartsAssemblyInfo.cs
 E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.MvcApplicationPartsAssemblyInfo.cache
 E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.RazorAssemblyInfo.cache
 E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.RazorAssemblyInfo.cs
@@ -539,12 +538,10 @@ E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\ref\AnimePlace.dll
 E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.pdb
 E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.genruntimeconfig.cache
 E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\refint\AnimePlace.dll
-E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\css\customCSS.css
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\Models\Anime.cs
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\Models\Character.cs
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\Models\Genre.cs
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\Models\ItemType.cs
-E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\Models\Studio.cs
 E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\scopedcss\Views\Shared\_OldLayout.cshtml.rz.scp.css
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\plugins\bootstrap\js\bootstrap.js
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\plugins\fontawesome-free\css\all.css
@@ -601,3 +598,5 @@ E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\img\user6-128x128.
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\img\user7-128x128.jpg
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\img\user8-128x128.jpg
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\cssOld\customCSS.css
+E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.MvcApplicationPartsAssemblyInfo.cs

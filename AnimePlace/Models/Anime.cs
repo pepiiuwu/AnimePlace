@@ -12,13 +12,19 @@
             this.Studios = new HashSet<Studio>();
         }
 
-        public int Id { get; set; }
+        public int AnimeId { get; set; }
 
         public string? Name { get; set; }
 
+        public string? AlternativeName { get; set; }
+
         public string? Sypnosis { get; set; }
 
+        //public IFormFile Image { get; set; }
+
         public string ImageUrl { get; set; }
+
+        public string BorderImageUrl { get; set; }
 
         public double Score { get; set; }
 

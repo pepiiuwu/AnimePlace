@@ -10,10 +10,5 @@ namespace AnimePlace.Models.InputModels
         [MaxLength(50)]
         [Required]
         public string Name { get; set; }
-
-        [MinLength(20)]
-        [MaxLength(500)]
-        [Required]
-        public string Details { get; set; }
     }
 }

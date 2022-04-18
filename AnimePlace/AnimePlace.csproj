@@ -32,13 +32,10 @@
     <Compile Update="Models\ItemType.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Update="Models\Studio.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="wwwroot\css\customCSS.css">
+    <Content Update="wwwroot\cssOld\customCSS.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\img\AdminLTELogo.png">

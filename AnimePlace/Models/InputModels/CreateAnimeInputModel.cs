@@ -21,15 +21,23 @@ namespace AnimePlace.Models.InputModels
         [MaxLength(70)]
         [Required]
         public string? Name { get; set; }
+        
+        [MinLength(1)]
+        [MaxLength(70)]
+        public string? AlternativeName { get; set; }
+
         [MinLength(5)]
-        [MaxLength(500)]
+        [MaxLength(1000)]
         [Required]
         public string? Sypnosis { get; set; }
-        [Range(1, 400)]
+
+        [Range(1, 500)]
         [Required]
         public int? Episodes { get; set; }
 
         public string ImageUrl { get; set; }
+
+        //public IFormFile Image { get; set; }
 
         [Required]
         public TypeEnum? Type { get; set; }

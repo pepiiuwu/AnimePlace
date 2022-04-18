@@ -32,6 +32,11 @@ namespace AnimePlace.Controllers
 
         public ActionResult AllAnimes(int id = 1)
         {
+            if(id <= 0)
+            {
+                return NotFound();
+            }
+
             const int AnimesPerPage = 12;
 
             var viewModel = new AnimesListViewModel
@@ -71,7 +76,7 @@ namespace AnimePlace.Controllers
             }
             await this.animesService.CreateAsync(input);
             //return this.Json(input);
-            return this.RedirectToAction("Index");
+            return this.RedirectToAction("AllAnimes", "Animes");
         }
         
 
@@ -132,6 +137,22 @@ namespace AnimePlace.Controllers
             {
                 return View();
             }
+        }
+
+        public ActionResult GetById(int id)
+        {
+            SingleAnimeViewModel anime = this.animesService.GetById(id);
+
+            if (anime == null)
+            {
+                return this.NotFound();
+            }
+
+            anime.Characters = this.animesService.GetAllForAnime(id);
+
+            
+
+            return this.View(anime);
         }
     }
 }

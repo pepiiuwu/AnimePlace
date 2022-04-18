@@ -2,16 +2,14 @@
 {
     public class Character
     {
-
         public Character()
         {
             this.Animes = new HashSet<Anime>();
         }
-        public int Id { get; set; }
+        
+        public int CharacterId { get; set; }
 
         public string Name { get; set; }
-
-        public string Details { get; set; }
 
         public string ImageUrl { get; set; }
 

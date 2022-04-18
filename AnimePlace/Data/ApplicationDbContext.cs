@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using AnimePlace.Models.InputModels;
+using AnimePlace.Models;
 
 namespace AnimePlace.Data
 {
@@ -18,8 +19,6 @@ namespace AnimePlace.Data
         public DbSet<Genre> Genres { get; set; }
 
         public DbSet<Studio> Studios { get; set; }
-
-        public DbSet<AnimePlace.Models.InputModels.CreateAnimeInputModel> CreateAnimeInputModel { get; set; }
 
 
     }

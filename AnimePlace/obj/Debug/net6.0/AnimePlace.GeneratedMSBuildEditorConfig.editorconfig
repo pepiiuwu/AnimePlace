@@ -43,6 +43,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Visual Studio Projects/AnimePlace/Views/Animes/GetById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWVzXEdldEJ5SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Visual Studio Projects/AnimePlace/Views/Animes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -57,6 +61,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Visual Studio Projects/AnimePlace/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio Projects/AnimePlace/Views/Shared/_LayoutOld2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRPbGQyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Visual Studio Projects/AnimePlace/Views/Shared/_LoginPartial.cshtml]
