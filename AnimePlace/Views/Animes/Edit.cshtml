@@ -1,0 +1,69 @@
+﻿<h1>Hello</h1>
+
+@using AnimePlace.Models.InputModels
+@model EditAnimeInputModel
+
+@{
+    ViewData["Title"] = "Edit Anime";
+    
+}
+<hr />
+<h2 style="color: #ffffff; text-align: center">Add new Anime to the Database</h2>
+
+<h4 style="color: #ffffff; text-align: center">Please fill all of the blanks</h4>
+
+<form method="post" asp-action="Edit">
+    <div class="border p-3 mt-4 px-4">
+        <div class="row pb-2">
+        </div>
+        <div class="mb-3" style="color: #ffffff">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="AlternativeName"></label>
+            <input asp-for="AlternativeName" class="form-control" />
+            <span asp-validation-for="AlternativeName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Episodes"></label>
+            <input asp-for="Episodes" class="form-control" />
+            <span asp-validation-for="Episodes" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Sypnosis"></label>
+            <input asp-for="Sypnosis" class="form-control" />
+            <span asp-validation-for="Sypnosis" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ImageUrl"></label>
+            <input asp-for="ImageUrl" class="form-control" />
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        </div>
+        @*<div class="form-group">
+            <label asp-for="Type" class="control-label"></label>
+            <select asp-for="Type" 
+                    class="form-control" 
+                    asp-items="Html.GetEnumSelectList<TypeEnum>()">
+                <option>Select type...</option>
+            </select>
+            <span asp-validation-for="Type" class="text-danger"></span>
+        </div>*@
+        @*<div class="mb-3">
+            <label asp-for="Image"></label>
+            <input asp-for="Image" class="form-control" />
+            <span asp-validation-for="Image" class="text-danger"></span>
+        </div>*@
+        <button type="submit" class="btn btn-primary" style="width:150px">Update</button>
+        
+    </div>
+</form>
+
+<a asp-controller="Animes" asp-action="Index" class="btn btn-secondary" style = "width:150px">
+            Back to list
+        </a>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

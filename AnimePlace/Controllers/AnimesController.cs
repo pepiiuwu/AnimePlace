@@ -25,19 +25,19 @@ namespace AnimePlace.Controllers
             var viewModel = new AnimesListViewModel
             {
                 PageNumber = id,
-                Animes = animesService.GetAll(id, 12),
+                Animes = animesService.GetAll(id, 20),
             };
             return View(viewModel);
         }
 
         public ActionResult AllAnimes(int id = 1)
         {
-            if(id <= 0)
+            if (id <= 0)
             {
                 return NotFound();
             }
 
-            const int AnimesPerPage = 12;
+            const int AnimesPerPage = 30;
 
             var viewModel = new AnimesListViewModel
             {
@@ -51,10 +51,10 @@ namespace AnimePlace.Controllers
         }
 
         // GET: AnimesController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+        //public ActionResult Details(int id)
+        //{
+        //    return View();
+        //}
 
         //Add authorization, so only Admin roles can Add New/Create Animes
         // GET: AnimesController/Create
@@ -62,7 +62,7 @@ namespace AnimePlace.Controllers
         {
             var viewModel = new CreateAnimeInputModel();
             //viewModel.TypeItems
-            
+
             return View(viewModel);
         }
 
@@ -78,15 +78,15 @@ namespace AnimePlace.Controllers
             //return this.Json(input);
             return this.RedirectToAction("AllAnimes", "Animes");
         }
-        
+
 
         //POST: AnimesController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
         //public ActionResult Create(IFormCollection collection)
         //{
-            
-            
+
+
         //    {
         //        return RedirectToAction(nameof(Index));
         //    }
@@ -94,50 +94,102 @@ namespace AnimePlace.Controllers
         //    {
         //        return View();
         //    }
-            
+
         //} 
 
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
         // GET: AnimesController/Edit/5
-        public ActionResult Edit(int id)
+        public IActionResult Edit(int id)
         {
-            return View();
+            if (id == null || id < 0)
+            {
+                return NotFound();
+            }
+
+            var viewModel = animesService.GetEdit(id);
+
+
+            if (viewModel == null)
+            {
+                return NotFound();
+            }
+
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditAsync(EditAnimeInputModel input, int id)
+        {
+            if (!this.ModelState.IsValid)
+            {
+                return this.View(input);
+            }
+
+            await this.animesService.EditAsync(input, id);
+
+            //return this.Json(input);
+
+            return this.RedirectToAction("AllAnimes", "Animes");
         }
 
         // POST: AnimesController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
 
-        // GET: AnimesController/Delete/5
+        //
+        //public ActionResult Edit(int id, IFormCollection collection)
+        //{
+        //    try
+        //    {
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
         public ActionResult Delete(int id)
         {
-            return View();
+            if (id == null || id < 0)
+            {
+                return NotFound();
+            }
+
+            var viewModel = animesService.GetEdit(id);
+
+
+            if (viewModel == null)
+            {
+                return NotFound();
+            }
+
+
+            return this.View(viewModel);
         }
 
-        // POST: AnimesController/Delete/5
+
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<ActionResult> DeletePOST(int id)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            await animesService.Delete(id);
+
+            return this.RedirectToAction("AllAnimes", "Animes");
+
         }
+
+        //// POST: AnimesController/Delete/5
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Delete(int id, IFormCollection collection)
+        //{
+        //    try
+        //    {
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
 
         public ActionResult GetById(int id)
         {
@@ -150,7 +202,7 @@ namespace AnimePlace.Controllers
 
             anime.Characters = this.animesService.GetAllForAnime(id);
 
-            
+
 
             return this.View(anime);
         }

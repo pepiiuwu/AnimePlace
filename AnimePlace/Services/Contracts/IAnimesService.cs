@@ -16,5 +16,11 @@ namespace AnimePlace.Services.Contracts
         public SingleAnimeViewModel GetById(int id);
 
         public ICollection<CharacterViewModel> GetAllForAnime(int id);
+
+        public Task EditAsync(EditAnimeInputModel input, int id);
+
+        public EditAnimeInputModel GetEdit(int id);
+
+        public Task Delete(int id);
     }
 }

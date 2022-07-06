@@ -35,7 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="wwwroot\cssOld\customCSS.css">
+    <Content Update="wwwroot\css\customCSS.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\img\AdminLTELogo.png">

@@ -6,17 +6,13 @@
     
 }
 
-<h1>Add new Anime to the Database</h1>
-
-<h4>Please fill all of the blanks</h4>
 
 <form method="post">
     <div class="border p-3 mt-4 px-4">
         <div class="row pb-2">
             <h2 class="text-primary">Add Anime</h2>
-            <hr />
         </div>
-        <div class="mb-3">
+        <div class="mb-3" style="color: #ffffff">
             <label asp-for="Name"></label>
             <input asp-for="Name" class="form-control" />
             <span asp-validation-for="Name" class="text-danger"></span>
@@ -56,11 +52,13 @@
             <span asp-validation-for="Image" class="text-danger"></span>
         </div>*@
         <button type="submit" class="btn btn-primary" style="width:150px">Create</button>
-        <a asp-controller="Animes" asp-action="Index" class="btn btn-secondary" style = "width:150px">
-            Back to list
-        </a>
+        
     </div>
 </form>
+
+<a asp-controller="Animes" asp-action="Index" class="btn btn-secondary" style = "width:150px">
+            Back to list
+        </a>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

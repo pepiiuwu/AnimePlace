@@ -598,5 +598,5 @@ E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\img\user6-128x128.
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\img\user7-128x128.jpg
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\img\user8-128x128.jpg
 E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\cssOld\customCSS.css
 E:\Visual Studio Projects\AnimePlace\obj\Debug\net6.0\AnimePlace.MvcApplicationPartsAssemblyInfo.cs
+E:\Visual Studio Projects\AnimePlace\bin\Debug\net6.0\wwwroot\css\customCSS.css

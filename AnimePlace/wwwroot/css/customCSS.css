@@ -1,0 +1,98 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+
+    
+}
+
+.left {
+    background-color: #2ecc71;
+    text-align: center;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    width: 75%;
+    overflow-y: scroll;
+}
+
+.span3 {
+    height: 60px !important;
+    overflow: scroll;
+    
+}
+.panel-heading {
+    
+    display: block;
+    max-block-size: 300px;
+    overflow-y: scroll !important;
+    text-overflow: clip;
+}
+
+h1, h2, h3, h4 {
+    margin-left: 150px;
+}
+
+.content-header {
+    width: 1262px;
+    margin: 0 auto;
+}
+
+.content--row {
+    row-gap: 20px;
+    column-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+.img--anime {
+    /*max-width: 100%;*/
+    width: 185px;
+    height: 265px;
+    /*height: auto;*/
+    margin-bottom: 20px;
+}
+
+.anime-details {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: 345px 1fr 300px;
+
+}
+
+.anime-cover {
+    width: 240px;
+    height: 345px;
+}
+
+img {
+    border-radius: 3px;
+}
+
+.single--name {
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 0;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+
+.single--sypnosis{
+    grid-column: 2 / span 1; 
+    grid-row: 1/ span 1;
+    font-size: 22px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.single--alternative {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}

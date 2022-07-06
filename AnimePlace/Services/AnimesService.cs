@@ -35,10 +35,45 @@ namespace AnimePlace.Services
             await dbContext.SaveChangesAsync();
         }
 
-        public IEnumerable<AnimeListViewModel> GetAll(int page, int itemsPerPage = 12)
+        public async Task EditAsync(EditAnimeInputModel input, int id)
+        {
+            var anime = await dbContext.Animes.FindAsync(id);
+
+            if(anime == null)
+            {
+                return;
+            }
+
+            anime.Name = input.Name;
+            anime.AlternativeName = input.AlternativeName;
+            anime.Episodes = input.Episodes;
+            anime.Sypnosis = input.Sypnosis;
+
+            dbContext.Animes.Update(anime);
+
+            await dbContext.SaveChangesAsync();
+        }
+
+        public EditAnimeInputModel GetEdit(int id)
+        {
+            var anime = dbContext.Animes.Find(id);
+
+            var viewModel = new EditAnimeInputModel()
+            {
+                Name = anime.Name,
+                AlternativeName = anime.AlternativeName,
+                Episodes = anime.Episodes,
+                ImageUrl = anime.ImageUrl,
+                Sypnosis = anime.Sypnosis
+            };
+
+            return viewModel;
+        }
+
+        public IEnumerable<AnimeListViewModel> GetAll(int page = 2, int itemsPerPage = 30)
         {
             //.Skip((page -1) * itemsPerPage).Take(itemsPerPage);
-            var result = dbContext.Animes.OrderByDescending(x => x.Favorites)
+            var result = dbContext.Animes.ToList().OrderByDescending(x => x.Favorites)
                 .Skip((page - 1) * itemsPerPage).Take(itemsPerPage)
                 .Select(x => new AnimeListViewModel
                 {
@@ -46,13 +81,14 @@ namespace AnimePlace.Services
                     Name = x.Name,
                     Synopsis = x.Sypnosis,
                     ImageUrl = x.ImageUrl,
-                }).ToList();
+                });
 
             return result;
         }
 
         public SingleAnimeViewModel GetById(int id)
         {
+            
             var result = dbContext.Animes.Where(x => x.AnimeId == id).Select(x => new SingleAnimeViewModel
             {
                 Id = id,
@@ -95,5 +131,19 @@ namespace AnimePlace.Services
 
             return collection;
         }
+
+        public async Task Delete(int id)
+        {
+            var anime = await dbContext.Animes.FindAsync(id);
+
+
+            dbContext.Remove(anime);
+
+            
+            await dbContext.SaveChangesAsync();
+
+        }
+
+        
     }
 }

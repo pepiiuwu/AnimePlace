@@ -1,15 +1,9 @@
 ﻿<!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Anime Template">
-    <meta name="keywords" content="Anime, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@ViewData["Title"]</title>
 
@@ -17,15 +11,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="~/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="~/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="~/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="~/css/plyr.css" type="text/css">
-    <link rel="stylesheet" href="~/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="~/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="~/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="~/css/style.css" type="text/css">
+    <!-- CSS Styles -->
+    @*<link rel="stylesheet" href="~/css/elegant-icons.css" type="text/css">*@
+    @*<link rel="stylesheet" href="~/css/plyr.css" type="text/css">*@
+    @*<link rel="stylesheet" href="~/css/owl.carousel.min.css" type="text/css">*@
+    @*<link rel="stylesheet" href="~/css/slicknav.min.css" type="text/css">*@
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/font-awesome.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/nice-select.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/customCSS.css" asp-append-version="true">
+    
+    
+    
 </head>
 
 <body>
@@ -35,7 +32,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     </div>*@
 
     <!-- Header Section Begin -->
-    <header class="header">
+    @*<header class="header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
@@ -55,7 +52,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                @* <li class="nav-item">
                     <a class="nav-link text-dark" asp-area="" asp-controller="Animes" asp-action="Index">Anime</a>
                 </li>*@
-                @*@if (this.User.IsInRole("Admin"))*@
+                @*@if (this.User.IsInRole("Admin"))
                 
                     <li class="nav-item">
                     <a class="nav-link text-dark" asp-area="" asp-controller="Animes" asp-action="Create">Add new Anime</a>
@@ -76,6 +73,34 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <div id="mobile-menu-wrap"></div>
         </div>
+    </header>*@
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Anime Place</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+
+                @*@if (this.User.IsInRole("Admin"))*@
+                
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Animes" asp-action="Create">Add new Anime</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Animes" asp-action="AllAnimes">All Anime</a>
+                </li>        
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <!-- Header End -->
     <div class="content-header">
@@ -85,65 +110,38 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Product Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer">
-        <div class="page-up">
-            <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
-        </div>
+    <footer class="border-top footer text-muted">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="footer__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="footer__nav">
-                        <ul>
-                            <li class="active"><a href="./index.html">Homepage</a></li>
-                            <li><a href="./categories.html">Categories</a></li>
-                            <li><a href="./blog.html">Our Blog</a></li>
-                            <li><a href="#">Contacts</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
-                        is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                            target="_blank">Colorlib</a>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
-
-                </div>
-            </div>
+            &copy; 2022 - Anime Place
         </div>
     </footer>
     <!-- Footer Section End -->
 
     <!-- Search model Begin -->
-    <div class="search-model">
+    @*<div class="search-model">
         <div class="h-100 d-flex align-items-center justify-content-center">
             <div class="search-close-switch"><i class="icon_close"></i></div>
             <form class="search-model-form">
                 <input type="text" id="search-input" placeholder="Search here.....">
             </form>
         </div>
-    </div>
+    </div>*@
     <!-- Search model end -->
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/player.js"></script>
+    @*<script src="js/owl.carousel.min.js"></script>*@
+    @*<script src="js/jquery-3.3.1.min.js"></script>*@
+    
+    @*<script src="js/player.js"></script>*@
+    
+    @*<script src="js/mixitup.min.js"></script>*@
+    @*<script src="js/jquery.slicknav.js"></script>*@
+    
     <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
-</body>
 
+</body>
 </html>

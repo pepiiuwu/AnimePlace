@@ -3,187 +3,53 @@ i:{00000000-0000-0000-0000-000000000000}:AnimePlace.sln
 ++AnimePlace
 i:{00000000-0000-0000-0000-000000000000}:AnimePlace
 ++Connected Services 
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1535
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1503
 ++Dependencies
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1534
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1502
+++Analyzers
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:analyzers
+++MessagePackAnalyzer
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\users\pepi\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\users\pepi\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\users\pepi\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\users\pepi\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Frameworks
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:frameworks
+++Packages
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:packages
 ++Properties
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\properties\
 ++wwwroot
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\
 ++css
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\css\
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\fontawesome-free\css\
-++cssOld
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\
-++alt
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\
-++adminlte.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\adminlte.css
-++bootstrap.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-++bootstrap-grid.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-grid.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-++bootstrap-reboot.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-reboot.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-++customCSS.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\customcss.css
-++img
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\
-++js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\
-++lib
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\
-++bootstrap
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\
-++dist
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\dist\
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\dist\
-++bootstrap-utilities.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-++LICENSE
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\license
-++jquery
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\jquery\
-++jquery-validation
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\
-++jquery-validation-unobtrusive
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation-unobtrusive\
-++plugins
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\
-++favicon.ico
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\favicon.ico
-++gigachad.gif
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\gigachad.gif
-++my-brain-hurts.jpg
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\my-brain-hurts.jpg
-++Areas
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\
-++Constants
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\constants\
-++Controllers
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\controllers\
-++Data
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\data\
-++Identity
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\data\identity\
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\
-++Migrations
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\migrations\
-++ApplicationDbContext.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\data\applicationdbcontext.cs
-++Models
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\
-++InputModels
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\inputmodels\
-++AnimeCharacterInputModel.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\inputmodels\animecharacterinputmodel.cs
-++CreateAnimeInputModel.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\inputmodels\createanimeinputmodel.cs
-++ViewModels
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\
-++AnimeListViewModel.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\animelistviewmodel.cs
-++AnimesListViewModel.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\animeslistviewmodel.cs
-++CharacterViewModel.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\characterviewmodel.cs
-++ErrorViewModel.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\errorviewmodel.cs
-++GenreViewModel.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\genreviewmodel.cs
-++IndexViewModel.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\indexviewmodel.cs
-++PagingViewModel.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\pagingviewmodel.cs
-++SingleAnimeViewModel.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\singleanimeviewmodel.cs
-++Anime.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\anime.cs
-++Character.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\character.cs
-++Genre.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\genre.cs
-++ItemType.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\itemtype.cs
-++Studio.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\studio.cs
-++Services
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\
-++Contracts
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\contracts\
-++IAnimesService.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\contracts\ianimesservice.cs
-++IGetCountsService.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\contracts\igetcountsservice.cs
-++AnimesService.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\animesservice.cs
-++GetCountsService.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\getcountsservice.cs
-++Views
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\
-++Animes
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\animes\
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\
-++AllAnimes.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\animes\allanimes.cshtml
-++Create.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\animes\create.cshtml
-++GetById.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\animes\getbyid.cshtml
-++Index.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\animes\index.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\home\index.cshtml
-++Home
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\home\
-++Shared
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\
-++_Layout.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_layout.cshtml
-++_LoginPartial.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_loginpartial.cshtml
-++_OldLayout.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_oldlayout.cshtml
-++_PagingPartial.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_pagingpartial.cshtml
-++_UserMessages.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_usermessages.cshtml
-++_ValidationScriptsPartial.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_validationscriptspartial.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\_validationscriptspartial.cshtml
-++Error.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\error.cshtml
-++_ViewImports.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\_viewimports.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\_viewimports.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\account\_viewimports.cshtml
-++_ViewStart.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\_viewstart.cshtml
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\_viewstart.cshtml
-++appsettings.json
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\appsettings.json
-++Program.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\program.cs
-++SQL Server Express LocalDB (Local) (ConnectionStrings:DefaultConnection)
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1563
-++Analyzers
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:analyzers
-++Frameworks
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:frameworks
-++Packages
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:packages
-++launchSettings.json
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\properties\launchsettings.json
-++serviceDependencies.json
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\properties\servicedependencies.json
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\
 ++bootstrap.min.css
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\css\bootstrap.min.css
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap.min.css
@@ -202,39 +68,89 @@ i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\ww
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\css\slicknav.min.css
 ++style.css
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\css\style.css
-++adminlte.components.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.components.css
-++adminlte.core.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.core.css
-++adminlte.extra-components.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.extra-components.css
-++adminlte.light.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.light.css
-++adminlte.pages.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.pages.css
-++adminlte.plugins.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.plugins.css
-++adminlte.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\adminlte.css.map
-++adminlte.min.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\adminlte.min.css
-++bootstrap.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-++bootstrap-grid.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-grid.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-++bootstrap-grid.min.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-grid.min.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-++bootstrap-reboot.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-reboot.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-++bootstrap-reboot.min.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-reboot.min.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++cssOld
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\
+++img
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\
+++Animes
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\animes\
+++100534l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\100534l.jpg
+++107701l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\107701l.jpg
+++113709l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\113709l.jpg
+++14335l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\14335l.jpg
+++35097l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\35097l.jpg
+++45408l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\45408l.jpg
+++49343l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\49343l.jpg
+++55143l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\55143l.jpg
+++71644l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\71644l.jpg
+++73129l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\73129l.jpg
+++74317l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\74317l.jpg
+++76916l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\76916l.jpg
+++77907l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\77907l.jpg
+++79634l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\79634l.jpg
+++87048l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\87048l.jpg
+++92795l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\92795l.jpg
+++9453l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\9453l.jpg
+++96846l.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\96846l.jpg
+++bx33-CTtcRjqe7UnM.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\bx33-cttcrjqe7unm.jpg
+++no-image.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\no-image.jpg
+++Borders
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\borders\
+++berserk-border-img.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\borders\berserk-border-img.jpg
+++Characters
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\characters\
+++26348.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\characters\26348.jpg
+++31502.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\characters\31502.jpg
+++335960.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\characters\335960.jpg
+++347984.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\characters\347984.jpg
+++392688.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\characters\392688.jpg
+++392689.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\characters\392689.jpg
+++392690.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\characters\392690.jpg
+++59125.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\characters\59125.jpg
 ++credit
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\
+++american-express.png
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\american-express.png
+++cirrus.png
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\cirrus.png
+++mastercard.png
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\mastercard.png
+++paypal.png
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\paypal.png
+++paypal2.png
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\paypal2.png
+++visa.png
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\visa.png
 ++AdminLTELogo.png
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\adminltelogo.png
 ++avatar.png
@@ -289,6 +205,145 @@ i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\ww
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\user7-128x128.jpg
 ++user8-128x128.jpg
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\user8-128x128.jpg
+++js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\
+++plugins
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\
+++favicon.ico
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\favicon.ico
+++gigachad.gif
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\gigachad.gif
+++my-brain-hurts.jpg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\my-brain-hurts.jpg
+++Areas
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\
+++Constants
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\constants\
+++Controllers
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\controllers\
+++Data
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\data\
+++Identity
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\data\identity\
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\
+++ApplicationDbContext.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\data\applicationdbcontext.cs
+++Migrations
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\migrations\
+++Models
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\
+++InputModels
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\inputmodels\
+++AnimeCharacterInputModel.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\inputmodels\animecharacterinputmodel.cs
+++CreateAnimeInputModel.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\inputmodels\createanimeinputmodel.cs
+++ViewModels
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\
+++Anime.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\anime.cs
+++Character.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\character.cs
+++Genre.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\genre.cs
+++ItemType.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\itemtype.cs
+++Studio.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\studio.cs
+++Services
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\
+++Contracts
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\contracts\
+++IAnimesService.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\contracts\ianimesservice.cs
+++IGetCountsService.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\contracts\igetcountsservice.cs
+++AnimesService.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\animesservice.cs
+++GetCountsService.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\services\getcountsservice.cs
+++Views
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\
+++AllAnimes.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\animes\allanimes.cshtml
+++Create.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\animes\create.cshtml
+++GetById.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\animes\getbyid.cshtml
+++Index.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\animes\index.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\home\index.cshtml
+++Home
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\home\
+++Shared
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\
+++_Layout.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_loginpartial.cshtml
+++_OldLayout.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_oldlayout.cshtml
+++_PagingPartial.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_pagingpartial.cshtml
+++_UserMessages.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_usermessages.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_validationscriptspartial.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\error.cshtml
+++_ViewImports.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\_viewimports.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\_viewimports.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\account\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\_viewstart.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\_viewstart.cshtml
+++appsettings.json
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\appsettings.json
+++Program.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\program.cs
+++SQL Server Express LocalDB (Local) (ConnectionStrings:DefaultConnection)
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1531
+++Microsoft.AspNetCore.App
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\microsoft.netcore.app
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.1)
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1526
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1527
+++Microsoft.AspNetCore.Identity.UI (6.0.2)
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1530
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1525
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1528
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1529
+++launchSettings.json
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\properties\launchsettings.json
+++serviceDependencies.json
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\properties\servicedependencies.json
+++alt
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\
+++adminlte.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\adminlte.css
+++bootstrap.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-grid.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-reboot.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++customCSS.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\customcss.css
 ++pages
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\pages\
 ++.eslintrc.json
@@ -297,29 +352,20 @@ i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\ww
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\adminlte.js
 ++bootstrap.js
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 ++demo.js
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\demo.js
-++bootstrap.rtl.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-++bootstrap-grid.rtl.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-++bootstrap-reboot.rtl.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-++bootstrap-utilities.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-++bootstrap-utilities.min.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-++bootstrap-utilities.rtl.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-++LICENSE.txt
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\license.txt
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation-unobtrusive\license.txt
-++LICENSE.md
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\license.md
-++jquery.validate.unobtrusive.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++bootstrap
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\
+++jquery
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\jquery\
+++jquery-validation
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation-unobtrusive\
 ++fontawesome-free
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\fontawesome-free\
 ++toastr
@@ -330,74 +376,117 @@ i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\co
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\controllers\animescontroller.cs
 ++HomeController.cs
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\controllers\homecontroller.cs
-++00000000000000_CreateIdentitySchema.cs
-++20220117203254_InitialCreated.cs
-++20220117205748_AddedAnimesAndCharactersModels.cs
-++20220117205846_AddedModels.cs
-++20220118004519_AddedGenres.cs
-++20220118004624_AddedGenresModels.cs
-++20220118004823_AddedGenresAndModels.cs
-++20220118005054_addedStudios.cs
-++20220118020747_AddedServices.cs
-++20220220093409_DeletedAllRows.cs
-++20220220094602_FixedBugs.cs
-++20220404124342_AddedImages.cs
-++20220414170807_AddedNewProperty.cs
-++20220414171021_AddedANewProperty.cs
+++20220417020528_InitialCreated.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\migrations\20220417020528_initialcreated.cs
+++20220417223558_AddedBorderImage.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\migrations\20220417223558_addedborderimage.cs
 ++ApplicationDbContextModelSnapshot.cs
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\migrations\applicationdbcontextmodelsnapshot.cs
+++AnimeListViewModel.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\animelistviewmodel.cs
+++AnimesListViewModel.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\animeslistviewmodel.cs
+++CharacterViewModel.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\characterviewmodel.cs
+++ErrorViewModel.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\errorviewmodel.cs
+++GenreViewModel.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\genreviewmodel.cs
+++IndexViewModel.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\indexviewmodel.cs
+++PagingViewModel.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\pagingviewmodel.cs
+++SingleAnimeViewModel.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\models\viewmodels\singleanimeviewmodel.cs
 ++_OldLayout.cshtml.css
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_oldlayout.cshtml.css
 ++appsettings.Development.json
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\appsettings.development.json
-++MessagePackAnalyzer
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\users\pepi\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
-++Microsoft.AspNetCore.Analyzers
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.App.Analyzers
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-++Microsoft.AspNetCore.Components.Analyzers
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
-++Microsoft.CodeAnalysis.Analyzers
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\users\pepi\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
-++Microsoft.CodeAnalysis.CSharp.Analyzers
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\users\pepi\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\users\pepi\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Microsoft.Extensions.Logging.Generators
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-++System.Text.Json.SourceGeneration
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-++Microsoft.AspNetCore.App
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\microsoft.aspnetcore.app
-++Microsoft.NETCore.App
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\microsoft.netcore.app
-++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.1)
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1558
-++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1559
-++Microsoft.AspNetCore.Identity.UI (6.0.2)
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1562
-++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1557
-++Microsoft.EntityFrameworkCore.Tools (6.0.2)
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1560
-++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:>1561
 ++serviceDependencies.local.json
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\properties\servicedependencies.local.json
+++adminlte.components.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.components.css
+++adminlte.core.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.core.css
+++adminlte.extra-components.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.extra-components.css
+++adminlte.light.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.light.css
+++adminlte.pages.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.pages.css
+++adminlte.plugins.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.plugins.css
+++adminlte.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\adminlte.css.map
+++adminlte.min.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\adminlte.min.css
+++bootstrap.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap-grid.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-grid.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-grid.min.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-reboot.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-reboot.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-reboot.min.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++dashboard.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\pages\dashboard.js
+++dashboard2.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\pages\dashboard2.js
+++dashboard3.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\pages\dashboard3.js
+++adminlte.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\adminlte.js.map
+++adminlte.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\adminlte.min.js
+++bootstrap.bundle.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.bundle.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.bundle.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++dist
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\dist\
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\license.txt
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++webfonts
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\fontawesome-free\webfonts\
+++jquery.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\jquery\jquery.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\dist\jquery.js
+++toastr.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\toastr\toastr.css
+++toastr.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\toastr\toastr.js.map
+++toastr.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\toastr\toastr.min.js
+++Pages
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\
+++20220417020528_InitialCreated.Designer.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\migrations\20220417020528_initialcreated.designer.cs
+++20220417223558_AddedBorderImage.Designer.cs
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\migrations\20220417223558_addedborderimage.designer.cs
 ++adminlte.components.css.map
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.components.css.map
 ++adminlte.components.min.css
@@ -433,154 +522,26 @@ i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\ww
 ++bootstrap-reboot.min.css.map
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\bootstrap-reboot.min.css.map
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-++55143l.jpg
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\55143l.jpg
-++73129l.jpg
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\73129l.jpg
-++74317l.jpg
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\74317l.jpg
-++79634l.jpg
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\79634l.jpg
-++87048l.jpg
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\87048l.jpg
-++92795l.jpg
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\92795l.jpg
-++96846l.jpg
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\96846l.jpg
-++no-image.jpg
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\animes\no-image.jpg
-++american-express.png
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\american-express.png
-++cirrus.png
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\cirrus.png
-++mastercard.png
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\mastercard.png
-++paypal.png
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\paypal.png
-++paypal2.png
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\paypal2.png
-++visa.png
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\img\credit\visa.png
-++dashboard.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\pages\dashboard.js
-++dashboard2.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\pages\dashboard2.js
-++dashboard3.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\pages\dashboard3.js
-++adminlte.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\adminlte.js.map
-++adminlte.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\adminlte.min.js
-++bootstrap.bundle.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.bundle.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.bundle.js
-++bootstrap.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.js.map
-++bootstrap.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.min.js
-++bootstrap.rtl.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-++bootstrap.rtl.min.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-++bootstrap-grid.rtl.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-++bootstrap-grid.rtl.min.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-++bootstrap-reboot.rtl.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-++bootstrap-reboot.rtl.min.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-++bootstrap-utilities.min.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-++bootstrap-utilities.rtl.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-++bootstrap-utilities.rtl.min.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-++bootstrap.esm.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-++jquery.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\dist\jquery.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\jquery\jquery.js
+++adminlte.min.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\adminlte.min.js.map
+++bootstrap.bundle.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.bundle.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.bundle.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.bundle.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.bundle.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.min.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.min.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.min.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 ++additional-methods.js
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\dist\additional-methods.js
 ++jquery.validate.js
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 ++jquery.validate.unobtrusive.min.js
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
-++webfonts
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\fontawesome-free\webfonts\
-++toastr.css
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\toastr\toastr.css
-++toastr.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\toastr\toastr.js.map
-++toastr.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\toastr\toastr.min.js
-++Pages
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\
-++00000000000000_CreateIdentitySchema.Designer.cs
-++20220117203254_InitialCreated.Designer.cs
-++20220117205748_AddedAnimesAndCharactersModels.Designer.cs
-++20220117205846_AddedModels.Designer.cs
-++20220118004519_AddedGenres.Designer.cs
-++20220118004624_AddedGenresModels.Designer.cs
-++20220118004823_AddedGenresAndModels.Designer.cs
-++20220118005054_addedStudios.Designer.cs
-++20220118020747_AddedServices.Designer.cs
-++20220220093409_DeletedAllRows.Designer.cs
-++20220220094602_FixedBugs.Designer.cs
-++20220404124342_AddedImages.Designer.cs
-++20220414170807_AddedNewProperty.Designer.cs
-++20220414171021_AddedANewProperty.Designer.cs
-++adminlte.components.min.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.components.min.css.map
-++adminlte.core.min.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.core.min.css.map
-++adminlte.extra-components.min.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.extra-components.min.css.map
-++adminlte.light.min.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.light.min.css.map
-++adminlte.pages.min.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.pages.min.css.map
-++adminlte.plugins.min.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.plugins.min.css.map
-++adminlte.min.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\adminlte.min.js.map
-++bootstrap.bundle.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.bundle.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.bundle.js.map
-++bootstrap.bundle.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.bundle.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.bundle.min.js
-++bootstrap.min.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.min.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.min.js.map
-++bootstrap.rtl.min.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-++bootstrap-grid.rtl.min.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-++bootstrap-reboot.rtl.min.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-++bootstrap-utilities.rtl.min.css.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-++bootstrap.esm.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-++bootstrap.esm.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-++jquery.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\dist\jquery.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\jquery\jquery.min.js
-++additional-methods.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-++jquery.validate.min.js
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 ++all.css
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\fontawesome-free\css\all.css
 ++brands.css
@@ -625,21 +586,37 @@ i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\ww
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\fontawesome-free\webfonts\fa-solid-900.woff
 ++fa-solid-900.woff2
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\fontawesome-free\webfonts\fa-solid-900.woff2
+++jquery.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\jquery\jquery.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\dist\jquery.min.js
 ++jquery.slim.js
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\jquery\jquery.slim.js
 ++toastr.min.css
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\toastr\toastr.min.css
 ++Account
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\account\
+++adminlte.components.min.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.components.min.css.map
+++adminlte.core.min.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.core.min.css.map
+++adminlte.extra-components.min.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.extra-components.min.css.map
+++adminlte.light.min.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.light.min.css.map
+++adminlte.pages.min.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.pages.min.css.map
+++adminlte.plugins.min.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\cssold\alt\adminlte.plugins.min.css.map
 ++bootstrap.bundle.min.js.map
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\bootstrap.bundle.min.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\bootstrap\js\bootstrap.bundle.min.js.map
-++bootstrap.esm.min.js.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-++jquery.min.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\dist\jquery.min.map
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\jquery\jquery.min.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap-utilities.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++additional-methods.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 ++all.min.css
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\fontawesome-free\css\all.min.css
 ++brands.min.css
@@ -654,43 +631,135 @@ i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\ww
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\fontawesome-free\css\svg-with-js.min.css
 ++v4-shims.min.css
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\fontawesome-free\css\v4-shims.min.css
+++jquery.min.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\jquery\jquery.min.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\jquery\dist\jquery.min.map
 ++jquery.slim.min.js
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\jquery\jquery.slim.min.js
 ++Register.cshtml
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\account\register.cshtml
+++bootstrap.rtl.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.rtl.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.rtl.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.esm.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 ++jquery.slim.min.map
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\plugins\jquery\jquery.slim.min.map
 ++Register.cshtml.cs
 i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\areas\identity\pages\account\register.cshtml.cs
-++20220416143652_fixingRelationships1.cs
-++20220416143652_fixingRelationships1.Designer.cs
-++20220416144120_fixingRelationships2.cs
-++20220416144120_fixingRelationships2.Designer.cs
-++20220416144857_fixingRelationships3.cs
-++20220416144857_fixingRelationships3.Designer.cs
-++20220416145648_fixingRelationships4.cs
-++20220416145648_fixingRelationships4.Designer.cs
-++20220416145722_fixingRelationships10.cs
-++20220416145722_fixingRelationships10.Designer.cs
-++20220416145838_fixingRelationships1.cs
-++20220416145838_fixingRelationships1.Designer.cs
-++20220416150129_fixingRelationships2.cs
-++20220416150129_fixingRelationships2.Designer.cs
-++20220416150334_fixingRelationships3.cs
-++20220416150334_fixingRelationships3.Designer.cs
-++20220416151446_fixingRelationships4.cs
-++20220416151446_fixingRelationships4.Designer.cs
-++20220416152450_addedStudios2.cs
-++20220416152450_addedStudios2.Designer.cs
-++20220416181435_FixingStudio.cs
-++20220416181435_FixingStudio.Designer.cs
-++20220416192245_1.cs
-++20220416192245_1.Designer.cs
-++20220416194413_InitialCreated.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\migrations\20220416194413_initialcreated.cs
-++20220416194413_InitialCreated.Designer.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\migrations\20220416194413_initialcreated.designer.cs
-++20220416195215_InitialCreated2.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\migrations\20220416195215_initialcreated2.cs
-++20220416195215_InitialCreated2.Designer.cs
-i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\migrations\20220416195215_initialcreated2.designer.cs
+++bootstrap.rtl.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.rtl.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.rtl.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.esm.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.rtl.min.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.esm.min.js.map
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++styleOld.css
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\css\styleold.css
+++NewFolder
+++fonts
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\fonts\
+++ElegantIcons.eot
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\fonts\eleganticons.eot
+++ElegantIcons.svg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\fonts\eleganticons.svg
+++ElegantIcons.ttf
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\fonts\eleganticons.ttf
+++ElegantIcons.woff
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\fonts\eleganticons.woff
+++FontAwesome.otf
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\fonts\fontawesome.otf
+++fontawesome-webfont.eot
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\fonts\fontawesome-webfont.eot
+++fontawesome-webfont.svg
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\fonts\fontawesome-webfont.svg
+++fontawesome-webfont.ttf
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\fonts\fontawesome-webfont.ttf
+++fontawesome-webfont.woff
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\fonts\fontawesome-webfont.woff
+++fontawesome-webfont.woff2
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\fonts\fontawesome-webfont.woff2
+++jquery.nice-select.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\jquery.nice-select.min.js
+++jquery.slicknav.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\jquery.slicknav.js
+++jquery-3.3.1.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\jquery-3.3.1.min.js
+++main.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\main.js
+++mixitup.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\mixitup.min.js
+++owl.carousel.min.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\owl.carousel.min.js
+++player.js
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\js\player.js
+++sass
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\
+++_anime-details.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_anime-details.scss
+++_anime-watching.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_anime-watching.scss
+++_base.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_base.scss
+++_blog.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_blog.scss
+++_blog-details.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_blog-details.scss
+++_breadcrumb.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_breadcrumb.scss
+++_footer.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_footer.scss
+++_header.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_header.scss
+++_hero.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_hero.scss
+++_login.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_login.scss
+++_mixins.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_mixins.scss
+++_product.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_product.scss
+++_responsive.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_responsive.scss
+++_signup.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_signup.scss
+++_variable.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\_variable.scss
+++style.scss
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\wwwroot\sass\style.scss
+++_LayoutOld2.cshtml
+i:{af7fc1cd-5a5a-4d1e-b19b-0ec5abb837c0}:e:\visual studio projects\animeplace\views\shared\_layoutold2.cshtml
