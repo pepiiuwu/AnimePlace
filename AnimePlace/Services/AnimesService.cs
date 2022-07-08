@@ -25,6 +25,10 @@ namespace AnimePlace.Services
                 Type = input.Type.ToString(),
                 Episodes = input.Episodes,
                 ImageUrl = input.ImageUrl,
+                BorderImageUrl = input.BorderImageUrl,
+                Source = input.Source,
+                Status = input.Status,
+                Aired = input.Aired,
             };
 
             if(!dbContext.Animes.Any(x => x.Name == anime.Name))
@@ -48,11 +52,19 @@ namespace AnimePlace.Services
             anime.AlternativeName = input.AlternativeName;
             anime.Episodes = input.Episodes;
             anime.Sypnosis = input.Sypnosis;
+            anime.ImageUrl = input.ImageUrl;
+            anime.BorderImageUrl = input.BorderImageUrl;
+            anime.Aired = input.Aired;
+            anime.Source = input.Source;
+            anime.Status = input.Status;
+            anime.Rating = input.Rating;
 
             dbContext.Animes.Update(anime);
 
             await dbContext.SaveChangesAsync();
         }
+
+
 
         public EditAnimeInputModel GetEdit(int id)
         {
@@ -64,7 +76,12 @@ namespace AnimePlace.Services
                 AlternativeName = anime.AlternativeName,
                 Episodes = anime.Episodes,
                 ImageUrl = anime.ImageUrl,
-                Sypnosis = anime.Sypnosis
+                Sypnosis = anime.Sypnosis,
+                BorderImageUrl = anime.BorderImageUrl,
+                Rating = anime.Rating,
+                Aired = anime.Aired,
+                Status = anime.Status,
+                Source = anime.Source,
             };
 
             return viewModel;
@@ -79,7 +96,6 @@ namespace AnimePlace.Services
                 {
                     Id = x.AnimeId,
                     Name = x.Name,
-                    Synopsis = x.Sypnosis,
                     ImageUrl = x.ImageUrl,
                 });
 
@@ -101,7 +117,10 @@ namespace AnimePlace.Services
                 Episodes = x.Episodes,
                 Type = x.Type,
                 Favorites = x.Favorites,
-
+                Aired = x.Aired,
+                Source = x.Source,
+                Status = x.Status,
+                Rating = x.Rating,
 
             }).FirstOrDefault();
 
@@ -123,9 +142,11 @@ namespace AnimePlace.Services
             ICollection<CharacterViewModel> collection = new List<CharacterViewModel>();
             foreach (var item in result)
             {
-                CharacterViewModel characterViewModel = new CharacterViewModel();
+                var characterViewModel = new CharacterViewModel();
                 characterViewModel.Name = item.Name;
                 characterViewModel.ImageUrl = item.ImageUrl;
+                characterViewModel.Voice = item.Voice;
+                characterViewModel.Role = item.Role;
                 collection.Add(characterViewModel);
             }
 

@@ -10,5 +10,7 @@ namespace AnimePlace.Models.InputModels
         [MaxLength(50)]
         [Required]
         public string Name { get; set; }
+
+        public string Voice { get; set; }
     }
 }

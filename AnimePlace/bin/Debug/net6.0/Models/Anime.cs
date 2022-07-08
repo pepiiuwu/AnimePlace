@@ -34,6 +34,14 @@
 
         public string Type { get; set; }
 
+        public string Rating { get; set; }
+
+        public string Source { get; set; }
+
+        public string Status { get; set; }
+
+        public string Aired { get; set; }
+
         public ICollection<Studio> Studios { get; set; }
 
         public ICollection<Character> Characters { get; set; }

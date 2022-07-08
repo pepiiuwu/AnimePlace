@@ -37,6 +37,19 @@ namespace AnimePlace.Models.InputModels
 
         public string ImageUrl { get; set; }
 
+        [Required]
+        public string Source { get; set; }
+
+        //For example R - 17+ (violence & profanity) / PG-13 - Teens 13 or older
+        public string Rating { get; set; }
+
+        [Required]
+        public string Aired { get; set; }
+
+        [Required]
+        public string Status { get; set; }
+        public string BorderImageUrl { get; set; }
+
         //public IFormFile Image { get; set; }
 
         [Required]

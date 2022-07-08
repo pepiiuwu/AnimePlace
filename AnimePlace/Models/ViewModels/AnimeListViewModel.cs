@@ -9,10 +9,10 @@
 
         public string Name { get; set; }
 
-        public string Synopsis { get; set; }
+        //public string Synopsis { get; set; }
 
-        public int GenreId { get; set; }
+        //public int GenreId { get; set; }
 
-        public string GenreName { get; set; }
+        //public string GenreName { get; set; }
     }
 }

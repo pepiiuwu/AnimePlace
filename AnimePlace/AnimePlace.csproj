@@ -204,6 +204,7 @@
 
   <ItemGroup>
     <Folder Include="Data\Identity\" />
+    <Folder Include="wwwroot\img\Staff\" />
   </ItemGroup>
 
 </Project>

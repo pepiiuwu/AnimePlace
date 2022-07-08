@@ -5,44 +5,106 @@
     //this.Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<div>
+    <img src="~/img/Borders/@(Model.BorderImageUrl).jpg" class="banner" />
+</div>
 
 <body>
-    <section class="anime-details">
-        <div>
-            <img src="~/img/Animes/@(Model.ImageUrl).jpg" alt="@Model.Name" class="anime-cover">
-
-        </div>
-        <div><h1 class="single--name">@Model.Name</h1>
-        <h2 class="single--alternative">@Model.AlternativeName</h2>
-        <h3 class="single--sypnosis">@Model.Sypnosis</h3></div>
-        
-        <h4>@Model.Type</h4>
-        <div class="d-flex">
-            @foreach (var character in @Model.Characters)
-            {
-
-                <div class="flex-shrink-0">
-                    <img src="~/img/Characters/@(character.ImageUrl).jpg" alt="@character.Name">
+    <section class="anime-container">
+        <div class="anime-details">
+            <div>
+                <img src="~/img/Animes/@(Model.ImageUrl).jpg" alt="@Model.Name" class="anime-cover">
+                <div class="actions">
+                    <button class="add-list">Add to List</button>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="favorite-icon" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
                 </div>
-                <div class="flex-grow-1 ms-3">
-                    @character.Name
-                </div>
-            }
+
             </div>
+
+            <div>
+                <h1 class="single--name">@Model.Name</h1>
+                <h3 class="single--alternative">@Model.AlternativeName</h3>
+                <p class="single--sypnosis">@Model.Sypnosis</p>
+            </div>
+        </div>
+        @*<h4>@Model.Type</h4>*@
+        <div class="anime-content">
+            <div class="sidebar-content">
+                <div class="sidebar-type">
+                    <div class="type-title">Type</div>
+                    <div class="type-content">@Model.Type</div>
+                </div>
+                <div class="sidebar-episodes">
+                    <div class="epidoes-title">Episodes</div>
+                    <div class="episodes-content">@Model.Episodes</div>
+                </div>
+                <div class="sidebar-status">
+                    <div class="status-title">Status</div>
+                    <div class="status-content">@Model.Status</div>
+                </div>
+                <div class="sidebar-aired">
+                    <div class="aired-title">Aired</div>
+                    <div class="aired-content">@Model.Aired</div>
+                </div>
+                <div class="sidebar-favorites">
+                    <div class="favorites-title">Favorites</div>
+                    <div class="favorites-content">@Model.Favorites</div>
+                </div>
+                <div class="sidebar-score">
+                    <div class="score-title">Score</div>
+                    <div class="score-content">@Model.Score</div>
+                </div>
+                <div class="sidebar-source">
+                    <div class="source-title">Source</div>
+                    <div class="source-content">@Model.Source</div>
+                </div>
+                <div class="sidebar-rating">
+                    <div class="rating-title">Rating</div>
+                    <div class="rating-content">@Model.Rating</div>
+                </div>
+            </div>
+
+            <div class="characters">
+                <h3 class="characters-title">Characters</h3>
+                <div class="characters-grid">
+                    @foreach (var character in @Model.Characters)
+                    {
+
+                        <div class="character">
+                            <img src="~/img/Characters/@(character.ImageUrl).jpg" alt="@character.Name" class="character-img">
+                            <div class="character-details">
+                                <h5 id="character-name">@character.Name</h5>
+                                <p class="character-role">@character.Role</p>
+                                <div class="staff">
+                                    <div>V.A: @character.Voice</div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+            </div>
+        </div>
+
+
     </section>
     <a asp-controller="Animes" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">
-            Edit
-        </a>
-        <a asp-controller="Animes" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-secondary">
-            Delete
-        </a>
+        Edit
+    </a>
+    <a asp-controller="Animes" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-secondary">
+        Delete
+    </a>
 </body>
-        <!-- Page Preloder -->
-                @*<div id="preloder">
+<!-- Page Preloder -->
+@*<div id="preloder">
     <div class="loader"></div>
     </div>*@
-        <!-- Breadcrumb Begin -->
-                @*    <div class="breadcrumb-option">
+<!-- Breadcrumb Begin -->
+@*    <div class="breadcrumb-option">
     <div class="container">
     <div class="row">
     <div class="col-lg-12">
@@ -55,9 +117,9 @@
     </div>
     </div>
     </div>*@
-        <!-- Breadcrumb End -->
-        <!-- Anime Section Begin -->
-                @*<section class="anime-details spad">
+<!-- Breadcrumb End -->
+<!-- Anime Section Begin -->
+@*<section class="anime-details spad">
     <div class="container">
     <div class="anime__details__content">
     <div class="row">
@@ -139,7 +201,7 @@
     </div>
     </div>*@
 
-                @*<div class="anime__review__item">
+@*<div class="anime__review__item">
     <div class="anime__review__item__pic">
     <img src="img/anime/review-6.jpg" alt="">
     </div>

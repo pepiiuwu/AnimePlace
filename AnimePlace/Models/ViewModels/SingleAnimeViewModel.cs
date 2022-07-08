@@ -24,6 +24,15 @@ namespace AnimePlace.Models.ViewModels
 
         public string? Type { get; set; }
 
+        public string? Source { get; set; }
+
+        public string? Aired { get; set; }
+
+        public string? Rating { get; set; }
+
+        public string? Status { get; set; }
+
+
         public ICollection<CharacterViewModel> Characters { get; set; }
 
         public ICollection<GenreViewModel> Genres { get; set; }
