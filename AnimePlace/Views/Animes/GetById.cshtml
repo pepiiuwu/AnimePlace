@@ -13,7 +13,7 @@
     <section class="anime-container">
         <div class="anime-details">
             <div>
-                <img src="~/img/Animes/@(Model.ImageUrl).jpg" alt="@Model.Name" class="anime-cover">
+                <img src="~/img/Animes/@(Model.ImageUrl).jpg" alt="@Model.Name" class="single-anime-cover">
                 <div class="actions">
                     <button class="add-list">Add to List</button>
                     <button class="favorite">
@@ -26,9 +26,9 @@
             </div>
 
             <div>
-                <h1 class="single--name">@Model.Name</h1>
-                <h3 class="single--alternative">@Model.AlternativeName</h3>
-                <p class="single--sypnosis">@Model.Sypnosis</p>
+                <h1 class="single-anime-name">@Model.Name</h1>
+                <h3 class="single-anime-alternative">@Model.AlternativeName</h3>
+                <p class="single-anime-sypnosis">@Model.Sypnosis</p>
             </div>
         </div>
         @*<h4>@Model.Type</h4>*@
@@ -75,9 +75,10 @@
                     {
 
                         <div class="character">
-                            <img src="~/img/Characters/@(character.ImageUrl).jpg" alt="@character.Name" class="character-img">
+                            
+                            <a asp-controller="Characters" asp-action="GetById" asp-route-id="@character.CharacterId"><img src="~/img/Characters/@(character.ImageUrl).jpg" alt="@character.Name" class="character-img"></a>
                             <div class="character-details">
-                                <h5 id="character-name">@character.Name</h5>
+                                <a asp-controller="Characters" asp-action="GetById" asp-route-id="@character.CharacterId"><h5 id="character-name">@character.Name</h5></a>
                                 <p class="character-role">@character.Role</p>
                                 <div class="staff">
                                     <div>V.A: @character.Voice</div>

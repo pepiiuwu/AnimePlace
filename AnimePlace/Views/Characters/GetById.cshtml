@@ -1,0 +1,19 @@
+﻿@using AnimePlace.Models.ViewModels
+@model CharacterViewModel
+
+<div class="single-character-banner"></div>
+<div class="single-character-content">
+    
+    <img src="~/img/Characters/@(Model.ImageUrl).jpg" alt="@Model.Name" class="single-character-image">
+    <div>
+    <h3 id="single-character-name">@Model.Name</h3>
+    <h4 class="single-character-details">@Model.Details</h4>
+    </div>
+    <a asp-controller="Characters" asp-action="AddToFavorites" asp-route-id="@Model.CharacterId" class="btn btn-secondary">Add to favorites</a>
+</div>
+
+
+
+
+
+

@@ -1,4 +1,6 @@
-﻿namespace AnimePlace.Data
+﻿using AnimePlace.Models;
+
+namespace AnimePlace.Data
 {
  
 
@@ -10,6 +12,7 @@
             this.Characters = new HashSet<Character>();
             this.Genres = new HashSet<Genre>();
             this.Studios = new HashSet<Studio>();
+            this.ApplicationUsers = new HashSet<ApplicationUser>();
         }
 
         public int AnimeId { get; set; }
@@ -47,5 +50,7 @@
         public ICollection<Character> Characters { get; set; }
 
         public ICollection<Genre> Genres { get; set; }
+
+        public ICollection<ApplicationUser> ApplicationUsers { get; set; }
     }
 }

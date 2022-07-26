@@ -1,4 +1,5 @@
 using AnimePlace.Data;
+using AnimePlace.Models;
 using AnimePlace.Services;
 using AnimePlace.Services.Contracts;
 using Microsoft.AspNetCore.Identity;
@@ -12,24 +13,25 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 
 {
     options.SignIn.RequireConfirmedAccount = false;
     options.Password.RequireDigit = false;
     options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequiredLength = 5;
+    options.Password.RequiredLength = 4;
     options.Password.RequireUppercase = false;
     options.Password.RequiredUniqueChars = 0;
-    options.Lockout.MaxFailedAccessAttempts = 5;
-    options.Lockout.MaxFailedAccessAttempts = 1;
+    options.Lockout.MaxFailedAccessAttempts = 10;
+    options.User.RequireUniqueEmail = true;
 })
-    .AddRoles<IdentityRole>()
+    //.AddRoles<IdentityUser>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IGetCountsService, GetCountsService>();
 builder.Services.AddTransient<IAnimesService, AnimesService>();
+builder.Services.AddTransient<ICharactersService, CharactersService>();
 builder.Services.AddAntiforgery();
 
 

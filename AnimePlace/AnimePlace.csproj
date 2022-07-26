@@ -38,85 +38,85 @@
     <Content Update="wwwroot\css\customCSS.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\AdminLTELogo.png">
+    <Content Update="wwwroot\img\Staff\AdminLTELogo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\avatar.png">
+    <Content Update="wwwroot\img\Staff\avatar.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\avatar2.png">
+    <Content Update="wwwroot\img\Staff\avatar2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\avatar3.png">
+    <Content Update="wwwroot\img\Staff\avatar3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\avatar4.png">
+    <Content Update="wwwroot\img\Staff\avatar4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\avatar5.png">
+    <Content Update="wwwroot\img\Staff\avatar5.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\boxed-bg.jpg">
+    <Content Update="wwwroot\img\Staff\boxed-bg.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\boxed-bg.png">
+    <Content Update="wwwroot\img\Staff\boxed-bg.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\default-150x150.png">
+    <Content Update="wwwroot\img\Staff\default-150x150.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\icons.png">
+    <Content Update="wwwroot\img\Staff\icons.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\photo1.png">
+    <Content Update="wwwroot\img\Staff\photo1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\photo2.png">
+    <Content Update="wwwroot\img\Staff\photo2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\photo3.jpg">
+    <Content Update="wwwroot\img\Staff\photo3.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\photo4.jpg">
+    <Content Update="wwwroot\img\Staff\photo4.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\prod-1.jpg">
+    <Content Update="wwwroot\img\Staff\prod-1.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\prod-2.jpg">
+    <Content Update="wwwroot\img\Staff\prod-2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\prod-3.jpg">
+    <Content Update="wwwroot\img\Staff\prod-3.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\prod-4.jpg">
+    <Content Update="wwwroot\img\Staff\prod-4.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\prod-5.jpg">
+    <Content Update="wwwroot\img\Staff\prod-5.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\user1-128x128.jpg">
+    <Content Update="wwwroot\img\Staff\user1-128x128.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\user2-160x160.jpg">
+    <Content Update="wwwroot\img\Staff\user2-160x160.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\user3-128x128.jpg">
+    <Content Update="wwwroot\img\Staff\user3-128x128.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\user4-128x128.jpg">
+    <Content Update="wwwroot\img\Staff\user4-128x128.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\user5-128x128.jpg">
+    <Content Update="wwwroot\img\Staff\user5-128x128.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\user6-128x128.jpg">
+    <Content Update="wwwroot\img\Staff\user6-128x128.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\user7-128x128.jpg">
+    <Content Update="wwwroot\img\Staff\user7-128x128.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\img\user8-128x128.jpg">
+    <Content Update="wwwroot\img\Staff\user8-128x128.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\plugins\bootstrap\js\bootstrap.js">
@@ -204,7 +204,6 @@
 
   <ItemGroup>
     <Folder Include="Data\Identity\" />
-    <Folder Include="wwwroot\img\Staff\" />
   </ItemGroup>
 
 </Project>

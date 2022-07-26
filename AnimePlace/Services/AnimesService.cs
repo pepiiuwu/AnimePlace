@@ -135,18 +135,19 @@ namespace AnimePlace.Services
         public ICollection<CharacterViewModel> GetAllForAnime(int id)
         {
 
-
-
             var anime = dbContext.Animes.Where(x => x.AnimeId == id).Select(x => x.Characters).ToList();
             var result = anime.SelectMany(x => x);
             ICollection<CharacterViewModel> collection = new List<CharacterViewModel>();
             foreach (var item in result)
             {
-                var characterViewModel = new CharacterViewModel();
-                characterViewModel.Name = item.Name;
-                characterViewModel.ImageUrl = item.ImageUrl;
-                characterViewModel.Voice = item.Voice;
-                characterViewModel.Role = item.Role;
+                var characterViewModel = new CharacterViewModel
+                {
+                    CharacterId = item.CharacterId,
+                    Name = item.Name,
+                    ImageUrl = item.ImageUrl,
+                    Voice = item.Voice,
+                    Role = item.Role
+                };
                 collection.Add(characterViewModel);
             }
 
